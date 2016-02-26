@@ -1,49 +1,7 @@
 {
-  "ecmaFeatures": {
-    "jsx": true
-  },
-
   "env": {
     "node": true,
     "es6": true
-  },
-
-  // Map from global var to bool specifying if it can be redefined
-  "globals": {
-    "__DEV__": true,
-    "__dirname": false,
-    "__fbBatchedBridgeConfig": false,
-    "cancelAnimationFrame": false,
-    "clearImmediate": true,
-    "clearInterval": false,
-    "clearTimeout": false,
-    "console": false,
-    "document": false,
-    "escape": false,
-    "exports": false,
-    "fetch": false,
-    "global": false,
-    "jest": false,
-    "Map": true,
-    "module": false,
-    "navigator": false,
-    "process": false,
-    "Promise": true,
-    "requestAnimationFrame": true,
-    "require": false,
-    "Set": true,
-    "setImmediate": true,
-    "setInterval": false,
-    "setTimeout": false,
-    "window": false,
-    "XMLHttpRequest": false,
-    "pit": false,
-    "Exception": true,
-
-    //Chai related globals
-    "chai": true,
-    "expect": true,
-    "__RTCORE_VERSION__": true
   },
 
   "rules": {
@@ -198,27 +156,6 @@
     "max-params": 0,                 // limits the number of parameters that can be used in the function declaration. (off by default)
     "max-statements": 0,             // specify the maximum number of statement allowed in a function (off by default)
     "no-bitwise": 1,                 // disallow use of bitwise operators (off by default)
-    "no-plusplus": 0,                // disallow use of unary operators, ++ and -- (off by default)
-
-    "react/display-name": 0,
-    "react/jsx-boolean-value": 0,
-    "jsx-quotes": [2, "prefer-double"],
-    "react/jsx-no-undef": 1,
-    "react/jsx-sort-props": 0,
-    "react/jsx-uses-react": 0,
-    "react/jsx-uses-vars": 1,
-    "react/no-did-mount-set-state": [1, "allow-in-func"],
-    "react/no-did-update-set-state": [1, "allow-in-func"],
-    "react/no-multi-comp": 0,
-    "react/no-unknown-property": 0,
-    "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0,
-    "react/self-closing-comp": 1,
-    "react/wrap-multilines": 0,
-
-
-    // Mocha
-    //"mocha/no-exclusive-tests": 2,
-    "mocha/no-global-tests": 2
+    "no-plusplus": 0                 // disallow use of unary operators, ++ and -- (off by default)
   }
 }

@@ -2,7 +2,7 @@
   "name": "medium-import",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "node": ">=4.0.0"
   },
   "bin": {
-    "medium-import": "./lib/index.js"
+    "medium-import": "./index.js"
   },
   "keywords": [],
   "author": "Patrick Stapfer <p.stapfer@deadlock.at>",
