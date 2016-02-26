@@ -1,0 +1,26 @@
+{
+  "name": "medium-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "bin": {
+    "medium-uploader": "./lib/index.js"
+  },
+  "keywords": [],
+  "author": "Patrick Stapfer <p.stapfer@deadlock.at>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.5.1",
+    "medium-sdk": "0.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0"
+  }
+}
