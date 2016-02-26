@@ -1,5 +1,5 @@
 {
-  "name": "medium-uploader",
+  "name": "medium-import",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "node": ">=4.0.0"
   },
   "bin": {
-    "medium-uploader": "./lib/index.js"
+    "medium-import": "./lib/index.js"
   },
   "keywords": [],
   "author": "Patrick Stapfer <p.stapfer@deadlock.at>",
