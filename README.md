@@ -1,7 +1,10 @@
 # medium-import
 
-Easy way to import article drafts to your Medium.com account.
-This module was written because we had a hard time import articles efficiently.
+Easy way to import article drafts to your Medium.com account via commandline!
+This is very useful if you want to import Markdown formatted drafts more easily.
+
+(Although Medium does support importing Markdown via web-interface, we found out 
+that this is very tedious and error-prone to do).
 
 
 ## Prerequesites
