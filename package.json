@@ -9,10 +9,25 @@
   "engines": {
     "node": ">=4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magicpat/medium-import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magicpat/medium-import/issues"
+  },
+  "homepage": {
+    "url": "https://github.com/magicpat/medium-import"
+  },
   "bin": {
     "medium-import": "./index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "medium",
+    "import",
+    "markdown",
+    "command line"
+  ],
   "author": "Patrick Stapfer <p.stapfer@deadlock.at>",
   "license": "MIT",
   "dependencies": {
