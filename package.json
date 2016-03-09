@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/magicpat/medium-import.git"
+    "url": "https://github.com/ryyppy/medium-import.git"
   },
   "bugs": {
-    "url": "https://github.com/magicpat/medium-import/issues"
+    "url": "https://github.com/ryyppy/medium-import/issues"
   },
   "homepage": {
-    "url": "https://github.com/magicpat/medium-import"
+    "url": "https://github.com/ryyppy/medium-import"
   },
   "bin": {
     "medium-import": "./index.js"
