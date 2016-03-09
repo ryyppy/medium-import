@@ -1,6 +1,6 @@
 {
   "name": "medium-import",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NodeJS cli-tool to import drafts to your Medium.com account",
   "main": "index.js",
   "scripts": {
